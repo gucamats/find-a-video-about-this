@@ -1,0 +1,8 @@
+faster-whisper==1.2.1
+# av 19.x breaks transcription with
+# "TypeError: open() got an unexpected keyword argument 'metadata_errors'".
+av==18.1.0
+# Sites change often; `pip install -U yt-dlp` upgrades only yt-dlp.
+yt-dlp>=2026.10.21
+# Browser impersonation, required by yt-dlp for TikTok.
+curl_cffi==0.16.3

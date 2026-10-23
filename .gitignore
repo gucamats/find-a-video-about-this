@@ -1,0 +1,22 @@
+# Request folders: videos, transcripts, frames, reports
+output/
+
+# Media, wherever it lands
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.m4a
+*.mp3
+*.opus
+*.wav
+*.vtt
+*.srt
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
