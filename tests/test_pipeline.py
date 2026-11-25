@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-from broll_finder import pipeline
-from broll_finder.pipeline import slugify
+from findavideo import pipeline
+from findavideo.pipeline import slugify
 
 
 def test_slugify():

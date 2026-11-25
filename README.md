@@ -1,4 +1,4 @@
-# broll-finder
+# find-a-video-about-this
 
 Give it a theme and it finds videos you might cut b-roll from. It searches
 YouTube, downloads the results, transcribes them, picks the moments worth
@@ -39,7 +39,7 @@ them somewhere else.
 ### The whole flow
 
 ```
-python -m broll_finder run "quebra de sigilo de Lula e Flávio" -n 3
+python -m findavideo run "quebra de sigilo de Lula e Flávio" -n 3
 ```
 
 This searches YouTube for the theme and takes the top 3 results through
@@ -59,11 +59,11 @@ runs.
 ### Step by step
 
 ```
-python -m broll_finder search "tipografia cinética" -n 10 [--full]
-python -m broll_finder download URL [URL ...] [--request NAME] [--max-height 720]
-python -m broll_finder clip URL --start 1:05 --end 1:20 [--keyframes]
-python -m broll_finder transcribe output/<request>/<video-id>
-python -m broll_finder frames output/<request>/<video-id> --theme "..."
+python -m findavideo search "tipografia cinética" -n 10 [--full]
+python -m findavideo download URL [URL ...] [--request NAME] [--max-height 720]
+python -m findavideo clip URL --start 1:05 --end 1:20 [--keyframes]
+python -m findavideo transcribe output/<request>/<video-id>
+python -m findavideo frames output/<request>/<video-id> --theme "..."
 ```
 
 - `search` prints JSON with `id`, `url`, `channel`, `duration`,

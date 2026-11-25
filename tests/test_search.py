@@ -1,8 +1,8 @@
 import json
 import subprocess
 
-from broll_finder import tools
-from broll_finder.search import parse_search_lines, search
+from findavideo import tools
+from findavideo.search import parse_search_lines, search
 
 
 def entry(**kw):

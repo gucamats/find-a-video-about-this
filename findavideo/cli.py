@@ -1,4 +1,4 @@
-"""Command line: python -m broll_finder <command> ..."""
+"""Command line: python -m findavideo <command> ..."""
 
 import argparse
 import json
@@ -18,7 +18,7 @@ def _terms(value):
 
 def build_parser():
     p = argparse.ArgumentParser(
-        prog="broll_finder",
+        prog="findavideo",
         description="Find b-roll on a theme: search, download, transcribe and "
                     "frame-grab videos into a per-request folder.")
     p.add_argument("--out", default="output",

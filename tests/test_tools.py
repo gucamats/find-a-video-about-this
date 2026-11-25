@@ -1,4 +1,4 @@
-from broll_finder.tools import last_error, yt_dlp
+from findavideo.tools import last_error, yt_dlp
 
 
 def test_yt_dlp_sets_header_and_youtube_language_from_accept_language():

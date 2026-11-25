@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pytest
 
-from broll_finder import cli, tools
-from broll_finder.download import ANALYSIS_FORMAT, check_duration, parse_time
+from findavideo import cli, tools
+from findavideo.download import ANALYSIS_FORMAT, check_duration, parse_time
 
 BAD = "https://www.youtube.com/watch?v=bad"
 GOOD = "https://www.youtube.com/watch?v=good"

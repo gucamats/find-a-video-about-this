@@ -1,4 +1,4 @@
-from broll_finder.frames import (
+from findavideo.frames import (
     cap_evenly, choose_mode, drawtext_escape, merge_cuts, mmss, parse_scdet,
     select_moments,
 )

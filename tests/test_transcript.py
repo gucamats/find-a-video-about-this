@@ -1,4 +1,4 @@
-from broll_finder.transcript import (
+from findavideo.transcript import (
     apply_quality_rules, find_hits, normalize_text, parse_vtt, theme_terms,
 )
 

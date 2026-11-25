@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from broll_finder import tools, transcript
+from findavideo import tools, transcript
 
 URL = "https://www.youtube.com/watch?v=abc"
 VTT = "WEBVTT\n\n00:00:01.000 --> 00:00:02.000\nlegenda\n"
